@@ -8,6 +8,7 @@ and maintenance of Go-Enjin based projects.
 ## Available Formulae
 
 * enjenv
+* gassc
 
 ## How do I install these formulae?
 
