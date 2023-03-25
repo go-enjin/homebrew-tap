@@ -7,7 +7,7 @@ and maintenance of Go-Enjin based projects.
 
 ## Available Formulae
 
-* (nothing yet)
+* enjenv
 
 ## How do I install these formulae?
 
