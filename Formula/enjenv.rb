@@ -5,7 +5,7 @@ class Enjenv < Formula
   desc "Go-Enjin environment management utility"
   homepage "https://go-enjin.org"
   license "Apache-2.0"
-  head "https://github.com/go-enjin/enjenv.git", branch: "trunk"
+  head "https://github.com/go-enjin/enjenv.git", branch: "release-v0.1.7"
 
   depends_on "go" => :build
 
@@ -24,6 +24,6 @@ class Enjenv < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "#{bin}/enjenv", "--help"
+    system bin/"enjenv", "--help"
   end
 end
