@@ -5,7 +5,7 @@ class Gassc < Formula
   desc "Go-Enjin libsass compiler"
   homepage "https://go-enjin.org"
   license "Apache-2.0"
-  head "https://github.com/go-enjin/gassc.git", branch: "trunk"
+  head "https://github.com/go-enjin/gassc.git", branch: "release-v0.2.6"
 
   depends_on "go" => :build
 
@@ -24,6 +24,6 @@ class Gassc < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    system "#{bin}/gassc", "--help"
+    system bin/"gassc", "--help"
   end
 end
