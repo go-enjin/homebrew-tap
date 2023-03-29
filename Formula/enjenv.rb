@@ -7,6 +7,7 @@ class Enjenv < Formula
   license "Apache-2.0"
   head "https://github.com/go-enjin/enjenv.git", branch: "release-v0.1.7"
 
+  depends_on "coreutils"
   depends_on "go" => :build
 
   def install
