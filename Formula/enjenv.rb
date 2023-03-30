@@ -5,7 +5,7 @@ class Enjenv < Formula
   desc "Go-Enjin environment management utility"
   homepage "https://go-enjin.org"
   license "Apache-2.0"
-  head "https://github.com/go-enjin/enjenv.git", branch: "release-v0.1.7"
+  head "https://github.com/go-enjin/enjenv.git", branch: "release-v0.1.8"
 
   depends_on "coreutils"
   depends_on "go" => :build
